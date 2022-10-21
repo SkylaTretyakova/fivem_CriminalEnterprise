@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	  <Item>
+		  <kitName>5112_omnisegt_modkit</kitName>
+		  <id value="5112" />
+		  <kitType>MKT_SPECIAL</kitType>
+		  <visibleMods>
+			  <!-- OMNISEGT_WEAPONS -->
+			  <!--	<Item>
+          <modelName>dummy_mod_frag_model</modelName>
+          <modShopLabel>SLICK_MINE</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_WING_R</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item>
+		<Item>
+          <modelName>dummy_mod_frag_model</modelName>
+          <modShopLabel>RC_UNIT</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_CHASSIS4</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+      </Item>
+	  <Item>
+          <modelName>dummy_mod_frag_model</modelName>
+          <modShopLabel>MLJ_UNIT</modShopLabel>
+          <linkedModels />
+          <turnOffBones />
+          <type>VMT_CHASSIS4</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item> -->
+			  <!-- OMNISEGT_ARMOR -->
+			  <!-- <Item>
+          <modelName>omnisegt_armlf</modelName>
+          <modShopLabel>GREEN_TRIM5</modShopLabel>
+          <linkedModels>
+		  <Item>omnisegt_armlr</Item>
+		  <Item>omnisegt_armrf</Item>
+		  <Item>omnisegt_armrr</Item>
+          </linkedModels>
+          <turnOffBones />
+          <type>VMT_CHASSIS</type>
+          <bone>door_dside_f</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+        </Item> -->
+			  <!-- OMNISEGT_MODS -->
+			  <Item>
+				  <modelName>omnisegt_roof_a</modelName>
+				  <modShopLabel>OMEGT_ROOF_A</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_e</Item>
+				  </turnOffBones>
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_b</modelName>
+				  <modShopLabel>OMEGT_ROOF_B</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_e</Item>
+				  </turnOffBones>
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_c</modelName>
+				  <modShopLabel>OMEGT_ROOF_C</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_e</Item>
+				  </turnOffBones>
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_d</modelName>
+				  <modShopLabel>OMEGT_ROOF_d</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_e</Item>
+				  </turnOffBones>
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_e</modelName>
+				  <modShopLabel>OMEGT_ROOF_e</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_e</Item>
+				  </turnOffBones>
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_f</modelName>
+				  <modShopLabel>OMEGT_ROOF_f</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>mod_col_1</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_g</modelName>
+				  <modShopLabel>OMEGT_ROOF_G</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>mod_col_1</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_h</modelName>
+				  <modShopLabel>OMEGT_ROOF_h</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>mod_col_2</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_roof_i</modelName>
+				  <modShopLabel>OMEGT_ROOF_i</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_ROOF</type>
+				  <bone>chassis</bone>
+				  <collisionBone>mod_col_2</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_a</modelName>
+				  <modShopLabel>OMEGT_WING_A</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_SPOILER</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_b</modelName>
+				  <modShopLabel>OMEGT_WING_B</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_trunk</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>spoiler</Item>
+				  </turnOffBones>
+				  <type>VMT_SPOILER</type>
+				  <bone>boot</bone>
+				  <collisionBone>mod_col_4</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_c</modelName>
+				  <modShopLabel>OMEGT_WING_C</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_trunk</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>spoiler</Item>
+				  </turnOffBones>
+				  <type>VMT_SPOILER</type>
+				  <bone>boot</bone>
+				  <collisionBone>mod_col_4</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_d</modelName>
+				  <modShopLabel>OMEGT_WING_D</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_trunk</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>spoiler</Item>
+				  </turnOffBones>
+				  <type>VMT_SPOILER</type>
+				  <bone>boot</bone>
+				  <collisionBone>mod_col_4</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_e</modelName>
+				  <modShopLabel>OMEGT_WING_E</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_trunk</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>spoiler</Item>
+				  </turnOffBones>
+				  <type>VMT_SPOILER</type>
+				  <bone>boot</bone>
+				  <collisionBone>mod_col_4</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_f</modelName>
+				  <modShopLabel>OMEGT_WING_F</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_trunk</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>spoiler</Item>
+				  </turnOffBones>
+				  <type>VMT_SPOILER</type>
+				  <bone>boot</bone>
+				  <collisionBone>mod_col_5</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_g</modelName>
+				  <modShopLabel>OMEGT_WING_G</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_trunk</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>spoiler</Item>
+				  </turnOffBones>
+				  <type>VMT_SPOILER</type>
+				  <bone>boot</bone>
+				  <collisionBone>mod_col_6</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wing_h</modelName>
+				  <modShopLabel>OMEGT_WING_H</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_trunk</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>spoiler</Item>
+				  </turnOffBones>
+				  <type>VMT_SPOILER</type>
+				  <bone>boot</bone>
+				  <collisionBone>mod_col_3</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_winglf_a</modelName>
+				  <modShopLabel>OMEGT_WINGLFA</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_wingrf_a</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>wing_lf</Item>
+					  <Item>wing_rf</Item>
+				  </turnOffBones>
+				  <type>VMT_WING_L</type>
+				  <bone>wing_lf</bone>
+				  <collisionBone>wing_lf</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_winglf_b</modelName>
+				  <modShopLabel>OMEGT_WINGLFB</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_wingrf_b</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>wing_lf</Item>
+					  <Item>wing_rf</Item>
+				  </turnOffBones>
+				  <type>VMT_WING_L</type>
+				  <bone>wing_lf</bone>
+				  <collisionBone>wing_lf</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_skirt_a</modelName>
+				  <modShopLabel>OMEGT_SKIRT_A</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_SKIRT</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_skirt_b</modelName>
+				  <modShopLabel>OMEGT_SKIRT_B</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_SKIRT</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_skirt_c</modelName>
+				  <modShopLabel>OMEGT_SKIRT_C</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_skirt_cr</Item>
+					  <Item>omnisegt_skirt_cf</Item>
+				  </linkedModels>
+				  <turnOffBones />
+				  <type>VMT_SKIRT</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_hood_a</modelName>
+				  <modShopLabel>OMEGT_HOOD_A</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>bonnet</Item>
+				  </turnOffBones>
+				  <type>VMT_BONNET</type>
+				  <bone>bonnet</bone>
+				  <collisionBone>bonnet</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_hood_b</modelName>
+				  <modShopLabel>OMEGT_HOOD_B</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>bonnet</Item>
+				  </turnOffBones>
+				  <type>VMT_BONNET</type>
+				  <bone>bonnet</bone>
+				  <collisionBone>bonnet</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_grill_a</modelName>
+				  <modShopLabel>OMEGT_GRILL_A</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_f</Item>
+				  </turnOffBones>
+				  <type>VMT_GRILL</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_grill_b</modelName>
+				  <modShopLabel>OMEGT_GRILL_B</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_f</Item>
+				  </turnOffBones>
+				  <type>VMT_GRILL</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_grill_c</modelName>
+				  <modShopLabel>OMEGT_GRILL_C</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_f</Item>
+				  </turnOffBones>
+				  <type>VMT_GRILL</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_bumf_a</modelName>
+				  <modShopLabel>OMEGT_BUMF_A</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_h</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_F</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_bumf_b</modelName>
+				  <modShopLabel>OMEGT_BUMF_B</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_h</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_F</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_bumf_c</modelName>
+				  <modShopLabel>OMEGT_BUMF_C</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_h</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_F</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_bumf_a</modelName>
+				  <modShopLabel>OMEGT_BUMF_D</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_splitter_a</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>misc_h</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_F</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_bumf_b</modelName>
+				  <modShopLabel>OMEGT_BUMF_E</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_splitter_a</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>misc_h</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_F</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_bumf_c</modelName>
+				  <modShopLabel>OMEGT_BUMF_F</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_splitter_a</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>misc_h</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_F</type>
+				  <bone>bumper_f</bone>
+				  <collisionBone>bumper_f</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_diff_a</modelName>
+				  <modShopLabel>OMEGT_DIFF_a</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_i</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_R</type>
+				  <bone>bumper_r</bone>
+				  <collisionBone>bumper_r</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_diff_b</modelName>
+				  <modShopLabel>OMEGT_DIFF_B</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_i</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_R</type>
+				  <bone>bumper_r</bone>
+				  <collisionBone>bumper_r</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_diff_c</modelName>
+				  <modShopLabel>OMEGT_DIFF_C</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones>
+					  <Item>misc_i</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_R</type>
+				  <bone>bumper_r</bone>
+				  <collisionBone>bumper_r</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_diff_a</modelName>
+				  <modShopLabel>OMEGT_DIFF_D</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_diff_d</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>misc_i</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_R</type>
+				  <bone>bumper_r</bone>
+				  <collisionBone>bumper_r</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_diff_b</modelName>
+				  <modShopLabel>OMEGT_DIFF_E</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_diff_d</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>misc_i</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_R</type>
+				  <bone>bumper_r</bone>
+				  <collisionBone>bumper_r</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_diff_c</modelName>
+				  <modShopLabel>OMEGT_DIFF_F</modShopLabel>
+				  <linkedModels>
+					  <Item>omnisegt_diff_d</Item>
+				  </linkedModels>
+				  <turnOffBones>
+					  <Item>misc_i</Item>
+				  </turnOffBones>
+				  <type>VMT_BUMPER_R</type>
+				  <bone>bumper_r</bone>
+				  <collisionBone>bumper_r</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <!-- OMNISEGT_LIVERY -->
+			  <Item>
+				  <modelName>omnisegt_livery1</modelName>
+				  <modShopLabel>OMEGT_LIV1</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery2</modelName>
+				  <modShopLabel>OMEGT_LIV2</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery3</modelName>
+				  <modShopLabel>OMEGT_LIV3</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery4</modelName>
+				  <modShopLabel>OMEGT_LIV4</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery5</modelName>
+				  <modShopLabel>OMEGT_LIV5</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery6</modelName>
+				  <modShopLabel>OMEGT_LIV6</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery7</modelName>
+				  <modShopLabel>OMEGT_LIV7</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery8</modelName>
+				  <modShopLabel>OMEGT_LIV8</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery9</modelName>
+				  <modShopLabel>OMEGT_LIV9</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery10</modelName>
+				  <modShopLabel>OMEGT_LIV10</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery11</modelName>
+				  <modShopLabel>OMEGT_LIV11</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery12</modelName>
+				  <modShopLabel>OMEGT_LIV12</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery13</modelName>
+				  <modShopLabel>OMEGT_LIV13</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery14</modelName>
+				  <modShopLabel>OMEGT_LIV14</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_livery15</modelName>
+				  <modShopLabel>OMEGT_LIV15</modShopLabel>
+				  <linkedModels />
+				  <turnOffBones />
+				  <type>VMT_LIVERY_MOD</type>
+				  <bone>chassis</bone>
+				  <collisionBone>chassis</collisionBone>
+				  <cameraPos>VMCP_DEFAULT</cameraPos>
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <turnOffExtra value="false" />
+				  <disableBonnetCamera value="false" />
+				  <allowBonnetSlide value="true" />
+			  </Item>
+		  </visibleMods>
+		  <linkMods>
+			  <Item>
+				  <modelName>omnisegt_trunk</modelName>
+				  <bone>boot</bone>
+				  <turnOffExtra value="false" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wingrf_a</modelName>
+				  <bone>wing_rf</bone>
+				  <turnOffExtra value="false" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_wingrf_b</modelName>
+				  <bone>wing_rf</bone>
+				  <turnOffExtra value="false" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_skirt_cr</modelName>
+				  <bone>bumper_r</bone>
+				  <turnOffExtra value="false" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_skirt_cf</modelName>
+				  <bone>bumper_f</bone>
+				  <turnOffExtra value="false" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_splitter_a</modelName>
+				  <bone>bumper_f</bone>
+				  <turnOffExtra value="false" />
+			  </Item>
+			  <Item>
+				  <modelName>omnisegt_diff_d</modelName>
+				  <bone>bumper_r</bone>
+				  <turnOffExtra value="false" />
+			  </Item>
+			  <!-- <Item>
+          <modelName>omnisegt_armrf</modelName>
+          <bone>door_pside_f</bone>
+          <turnOffExtra value="false" />
+        </Item>
+        <Item>
+          <modelName>omnisegt_armlr</modelName>
+          <bone>door_dside_r</bone>
+          <turnOffExtra value="false" />
+        </Item>
+        <Item>
+          <modelName>omnisegt_armrr</modelName>
+          <bone>door_pside_r</bone>
+          <turnOffExtra value="false" />
+        </Item> -->
+		  </linkMods>
+		  <statMods>
+			  <Item>
+				  <identifier />
+				  <modifier value="20" />
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <type>VMT_ENGINE</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="40" />
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <type>VMT_ENGINE</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="60" />
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <type>VMT_ENGINE</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="90" />
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <type>VMT_ENGINE</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="30" />
+				  <audioApply value="1.000000" />
+				  <weight value="5" />
+				  <type>VMT_BRAKES</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="60" />
+				  <audioApply value="1.000000" />
+				  <weight value="5" />
+				  <type>VMT_BRAKES</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="120" />
+				  <audioApply value="1.000000" />
+				  <weight value="5" />
+				  <type>VMT_BRAKES</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="10" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_SUSPENSION</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="20" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_SUSPENSION</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="40" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_SUSPENSION</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="60" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_SUSPENSION</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="20" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_ARMOUR</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="40" />
+				  <audioApply value="1.000000" />
+				  <weight value="10" />
+				  <type>VMT_ARMOUR</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="60" />
+				  <audioApply value="1.000000" />
+				  <weight value="20" />
+				  <type>VMT_ARMOUR</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="80" />
+				  <audioApply value="1.000000" />
+				  <weight value="30" />
+				  <type>VMT_ARMOUR</type>
+			  </Item>
+			  <Item>
+				  <identifier />
+				  <modifier value="100" />
+				  <audioApply value="1.000000" />
+				  <weight value="40" />
+				  <type>VMT_ARMOUR</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_TRUCK</identifier>
+				  <modifier value="1766676233" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_COP</identifier>
+				  <modifier value="2904189469" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_CLOWN</identifier>
+				  <modifier value="2543206147" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_MUSICAL_1</identifier>
+				  <modifier value="1732399718" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_MUSICAL_2</identifier>
+				  <modifier value="2046162893" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_MUSICAL_3</identifier>
+				  <modifier value="2194999691" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_MUSICAL_4</identifier>
+				  <modifier value="2508304100" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_MUSICAL_5</identifier>
+				  <modifier value="3707223535" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HORN_SAD_TROMBONE</identifier>
+				  <modifier value="632950117" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>MUSICAL_HORN_BUSINESS_1</identifier>
+				  <modifier value="3628534289" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>MUSICAL_HORN_BUSINESS_2</identifier>
+				  <modifier value="3892554122" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>MUSICAL_HORN_BUSINESS_3</identifier>
+				  <modifier value="4112892878" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>MUSICAL_HORN_BUSINESS_4</identifier>
+				  <modifier value="116877169" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>MUSICAL_HORN_BUSINESS_5</identifier>
+				  <modifier value="2684983719" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>MUSICAL_HORN_BUSINESS_6</identifier>
+				  <modifier value="2982690084" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>MUSICAL_HORN_BUSINESS_7</identifier>
+				  <modifier value="3203290992" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_C0</identifier>
+				  <modifier value="771284519" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_D0</identifier>
+				  <modifier value="2586621229" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_E0</identifier>
+				  <modifier value="283386134" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_F0</identifier>
+				  <modifier value="3884502400" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_G0</identifier>
+				  <modifier value="265723083" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_A0</identifier>
+				  <modifier value="1746883687" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_B0</identifier>
+				  <modifier value="1919870950" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_BUSI2_C_MAJOR_NOTES_C1</identifier>
+				  <modifier value="1085277077" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HIPSTER_HORN_1</identifier>
+				  <modifier value="444549672" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HIPSTER_HORN_2</identifier>
+				  <modifier value="1603064898" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HIPSTER_HORN_3</identifier>
+				  <modifier value="240366033" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>HIPSTER_HORN_4</identifier>
+				  <modifier value="960137118" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>INDEP_HORN_1</identifier>
+				  <modifier value="3572144790" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>INDEP_HORN_2</identifier>
+				  <modifier value="3801396714" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>INDEP_HORN_3</identifier>
+				  <modifier value="2843657151" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>INDEP_HORN_4</identifier>
+				  <modifier value="3341811489" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>LUXE_HORN_1</identifier>
+				  <modifier value="3199657341" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>LUXE_HORN_2</identifier>
+				  <modifier value="2900378064" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>LUXE_HORN_3</identifier>
+				  <modifier value="3956195248" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>LUXORY_HORN_1</identifier>
+				  <modifier value="676333254" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>LUXURY_HORN_2</identifier>
+				  <modifier value="2099578296" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>LUXURY_HORN_3</identifier>
+				  <modifier value="1373384483" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>ORGAN_HORN_LOOP_01</identifier>
+				  <modifier value="2916775806" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>ORGAN_HORN_LOOP_01_PREVIEW</identifier>
+				  <modifier value="3714706952" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>ORGAN_HORN_LOOP_02</identifier>
+				  <modifier value="2611860261" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>ORGAN_HORN_LOOP_02_PREVIEW</identifier>
+				  <modifier value="3206770359" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>LOWRIDER_HORN_1</identifier>
+				  <modifier value="310529291" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>LOWRIDER_HORN_1_PREVIEW</identifier>
+				  <modifier value="2965568987" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>LOWRIDER_HORN_2</identifier>
+				  <modifier value="55291550" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>LOWRIDER_HORN_2_PREVIEW</identifier>
+				  <modifier value="965054819" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>XM15_HORN_01</identifier>
+				  <modifier value="55862314" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>XM15_HORN_01_PREVIEW</identifier>
+				  <modifier value="2156743178" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>XM15_HORN_02</identifier>
+				  <modifier value="400002352" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>XM15_HORN_02_PREVIEW</identifier>
+				  <modifier value="897484282" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>XM15_HORN_03</identifier>
+				  <modifier value="560832604" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>XM15_HORN_03_PREVIEW</identifier>
+				  <modifier value="314232747" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_AW_Airhorn_01</identifier>
+				  <modifier value="3851180092" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>DLC_AW_Airhorn_01_Preview</identifier>
+				  <modifier value="246182814" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_AW_Airhorn_02</identifier>
+				  <modifier value="3412861948" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>DLC_AW_Airhorn_02_Preview</identifier>
+				  <modifier value="1804608241" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <Item>
+				  <identifier>DLC_AW_Airhorn_03</identifier>
+				  <modifier value="3374260066" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+			  <!-- PREVIEW HORN - FOR MOD SHOP USE ONLY -->
+			  <Item>
+				  <identifier>DLC_AW_Airhorn_03_Preview</identifier>
+				  <modifier value="2798044638" />
+				  <audioApply value="1.000000" />
+				  <weight value="0" />
+				  <type>VMT_HORN</type>
+			  </Item>
+		  </statMods>
+		  <slotNames>
+			  <Item>
+				  <slot>VMT_CHASSIS4</slot>
+				  <name>TOP_IMANI_TECH</name>
+			  </Item>
+			  <Item>
+				  <slot>VMT_DOOR_R</slot>
+				  <name>TOP_MIR</name>
+			  </Item>
+			  <Item>
+				  <slot>VMT_INTERIOR1</slot>
+				  <name>TOP_SUNST</name>
+			  </Item>
+			  <Item>
+				  <slot>VMT_CHASSIS3</slot>
+				  <name>TOP_CATCH</name>
+			  </Item>
+			  <Item>
+				  <slot>VMT_CHASSIS</slot>
+				  <name>TOP_ARM_PLAT</name>
+			  </Item>
+			  <Item>
+				  <slot>VMT_WING_R</slot>
+				  <name>TOP_MINE</name>
+			  </Item>
+		  </slotNames>
+		  <liveryNames />
+	  </Item>
+  </Kits>
+	<Lights>
+		
+	</Lights>
+</CVehicleModelInfoVarGlobal>
