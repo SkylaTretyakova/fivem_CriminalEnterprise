@@ -16,6 +16,13 @@ files {
     'sfx/**/*.awc'
 
 }
+--[[Template
+
+data_file 'AUDIO_SYNTHDATA' 'audioconfig/*_amp.dat'
+data_file 'AUDIO_GAMEDATA' 'audioconfig/*_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/*_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'sfx/dlc_**'  --]]
+
 
 
 
@@ -28,9 +35,9 @@ data_file 'DLCTEXT_FILE'             'data/**/dlctext.meta'
 data_file 'CARCONTENTUNLOCKS_FILE'   'data/**/carcontentunlocks.meta'
 
 
-data_file 'AUDIO_GAMEDATA' 'audioconfig/dlcmpsum2_amp.dat'
-data_file 'AUDIO_GAMEDATA' 'audioconfig/dlcmpsum2_game.dat'
-data_file 'AUDIO_SOUNDDATA' 'audioconfig/dlcmpsum2_sounds.dat'
+data_file 'AUDIO_SYNTHDATA' 'audioconfig/dlc_enterprise_amp.dat'
+data_file 'AUDIO_GAMEDATA' 'audioconfig/dlc_enterprise_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'audioconfig/dlc_enterprise_sounds.dat'
 data_file 'AUDIO_WAVEPACK' 'sfx/dlc_enterprise'
 
 
